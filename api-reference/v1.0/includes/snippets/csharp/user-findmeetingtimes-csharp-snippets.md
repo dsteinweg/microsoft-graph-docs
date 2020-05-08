@@ -60,7 +60,7 @@ var meetingDuration = new Duration("PT1H");
 
 var returnSuggestionReasons = true;
 
-var minimumAttendeePercentage = "100";
+var minimumAttendeePercentage = (double)100;
 
 await graphClient.Me
 	.FindMeetingTimes(attendees,locationConstraint,timeConstraint,meetingDuration,null,isOrganizerOptional,returnSuggestionReasons,minimumAttendeePercentage)
