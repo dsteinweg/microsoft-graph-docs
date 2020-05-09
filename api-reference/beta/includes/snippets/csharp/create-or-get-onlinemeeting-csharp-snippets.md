@@ -26,7 +26,10 @@ var participants = new MeetingParticipants
 			User = new Identity
 			{
 				Id = "d4a060b5-a8fc-450c-837b-750b2c280000",
-				TenantId = "72f988bf-86f1-41af-91ab-2d7cd0110000"
+				AdditionalData = new Dictionary<string, object>()
+				{
+					{"tenantId", "72f988bf-86f1-41af-91ab-2d7cd0110000"}
+				}
 			}
 		},
 		Upn = "test1@contoso.com"
@@ -40,7 +43,10 @@ var participants = new MeetingParticipants
 				User = new Identity
 				{
 					Id = "1f35f2e6-9cab-44ad-8d5a-b74c14720000",
-					IdentityProvider = "MSA"
+					AdditionalData = new Dictionary<string, object>()
+					{
+						{"identityProvider", "MSA"}
+					}
 				}
 			},
 			Upn = "test@contoso.com"

@@ -15,13 +15,13 @@ var channel = new Channel
 	{
 		new AadUserConversationMember
 		{
-			AdditionalData = new Dictionary<string, object>()
-			{
-				{"user@odata.bind","https://graph.microsoft.com/beta/users('{user_id}')"}
-			},
 			Roles = new List<String>()
 			{
 				"owner"
+			},
+			AdditionalData = new Dictionary<string, object>()
+			{
+				{"user@odata.bind", "https://graph.microsoft.com/beta/users('{user_id}')"}
 			}
 		}
 	}
