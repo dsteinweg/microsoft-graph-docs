@@ -6,7 +6,7 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 GraphServiceClient graphClient = new GraphServiceClient( authProvider );
 
-var timeOffRequests = new TimeOffRequest
+var timeOffRequests = new TimeOffRequestObject
 {
 	StartDateTime = DateTimeOffset.Parse("datetime-value"),
 	EndDateTime = DateTimeOffset.Parse("datetime-value"),
