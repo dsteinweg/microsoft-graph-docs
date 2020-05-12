@@ -22,8 +22,8 @@ var bookingStaffMember = new BookingStaffMember
 			{
 				new BookingWorkTimeSlot
 				{
-					End = "17:00:00.0000000",
-					Start = "08:00:00.0000000"
+					End = new TimeOfDay(17, 0, 0),
+					Start = new TimeOfDay(8, 0, 0)
 				}
 			},
 			AdditionalData = new Dictionary<string, object>()
@@ -39,8 +39,8 @@ var bookingStaffMember = new BookingStaffMember
 			{
 				new BookingWorkTimeSlot
 				{
-					End = "17:00:00.0000000",
-					Start = "08:00:00.0000000"
+					End = new TimeOfDay(17, 0, 0),
+					Start = new TimeOfDay(8, 0, 0)
 				}
 			},
 			AdditionalData = new Dictionary<string, object>()
@@ -56,8 +56,8 @@ var bookingStaffMember = new BookingStaffMember
 			{
 				new BookingWorkTimeSlot
 				{
-					End = "17:00:00.0000000",
-					Start = "08:00:00.0000000"
+					End = new TimeOfDay(17, 0, 0),
+					Start = new TimeOfDay(8, 0, 0)
 				}
 			},
 			AdditionalData = new Dictionary<string, object>()
@@ -73,8 +73,8 @@ var bookingStaffMember = new BookingStaffMember
 			{
 				new BookingWorkTimeSlot
 				{
-					End = "17:00:00.0000000",
-					Start = "08:00:00.0000000"
+					End = new TimeOfDay(17, 0, 0),
+					Start = new TimeOfDay(8, 0, 0)
 				}
 			},
 			AdditionalData = new Dictionary<string, object>()
@@ -90,8 +90,8 @@ var bookingStaffMember = new BookingStaffMember
 			{
 				new BookingWorkTimeSlot
 				{
-					End = "17:00:00.0000000",
-					Start = "08:00:00.0000000"
+					End = new TimeOfDay(17, 0, 0),
+					Start = new TimeOfDay(8, 0, 0)
 				}
 			},
 			AdditionalData = new Dictionary<string, object>()

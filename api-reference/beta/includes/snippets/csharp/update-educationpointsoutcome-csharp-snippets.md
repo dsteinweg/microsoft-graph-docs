@@ -10,7 +10,7 @@ var educationOutcome = new EducationPointsOutcome
 {
 	Points = new EducationAssignmentPointsGrade
 	{
-		Points = 85
+		Points = 85f
 	}
 };
 

@@ -12,7 +12,7 @@ var attachment = new ReferenceAttachment
 	SourceUrl = "https://contoso.com/personal/mario_contoso_net/Documents/Pics",
 	ProviderType = ReferenceAttachmentProvider.OneDriveConsumer,
 	Permission = ReferenceAttachmentPermission.Edit,
-	IsFolder = "True"
+	IsFolder = true
 };
 
 await graphClient.Me.Messages["AAMkAGE1M88AADUv0uFAAA="].Attachments

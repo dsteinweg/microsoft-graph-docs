@@ -21,7 +21,7 @@ var post = new Post
 			SourceUrl = "https://contoso.com/personal/mario_contoso_net/Documents/Pics",
 			ProviderType = ReferenceAttachmentProvider.OneDriveConsumer,
 			Permission = ReferenceAttachmentPermission.Edit,
-			IsFolder = "True"
+			IsFolder = true
 		}
 	}
 };
